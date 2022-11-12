@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>
+            Calculator
+        </title>
+        <link rel="stylesheet" href="source/index.css">
+        <link rel="icon" type="image/x-icon" href="source/icon.ico">
+
+    </head>
+    <body oncopy="return false" oncut="return false" onpaste="return false"> 
+      <div class="container" id="container" onmousemove="getCursorPosition(event)">
+        <div class="outer">
+            <div class="inner">
+                <div class="calc-title">
+                    <P>CALCULATOR<sup style="font-size:5px;">KAMLESH</sup></P>
+                </div>
+                <div class="calc-screen" id="calc-screen">
+                    <h1 id="calc-screen-text">0</h1>
+                </div>
+                <div class="calc-button">
+                    <table class="calc-table"> 
+                        <tr class="calc-btn-row">
+                            <td class="calc-btn-text"> AC</td>
+                            <td class="calc-btn-text">+/-</td>
+                            <td class="calc-btn-text"> %</td>
+                            <td class="calc-btn-text"> /</td>
+                            <td class="calc-btn-text"> *</td>
+                        </tr>
+                        <tr class="calc-btn-row">
+                            <td class="calc-btn-text"> &#8730;</td>
+                            <td class="calc-btn-text"> 9</td>
+                            <td class="calc-btn-text"> 8</td>
+                            <td class="calc-btn-text"> 7</td>
+                            <td class="calc-btn-text"> -</td>
+                        </tr>
+
+                        <tr class="calc-btn-row">
+                            <td class="calc-btn-text"> &#x221B;</td>
+                            <td class="calc-btn-text"> 6</td>
+                            <td class="calc-btn-text"> 5</td>
+                            <td class="calc-btn-text"> 4</td>
+                            <td class="calc-btn-text"> +</td>
+                        </tr>
+                        <tr class="calc-btn-row">
+                            <td class="calc-btn-text"> &and;</td>
+                            <td class="calc-btn-text"> 3</td>
+                            <td class="calc-btn-text"> 2</td>
+                            <td class="calc-btn-text"> 1</td>
+                            <td class="calc-btn-text" rowspan="2">=</td>
+                        </tr> 
+                        <tr class="calc-btn-row">
+                            <td class="calc-btn-text"> &or;</td>
+                            <td class="calc-btn-text"> .</td>
+                            <td class="calc-btn-text" colspan="2">0</td> 
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+      </div> 
+    <script src="source/index.js"></script>
+    <script src="source/calc.js"></script>
+    </body>
+</html>
